@@ -60,7 +60,7 @@ nav li {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background: url(Images/ayam.jpg);
+    background: url(Images/beranda.jpg);
     background-size: cover;
     padding: 200px 60px 60px 60px;
 }
