@@ -60,7 +60,7 @@ nav li {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background: url(images/beranda.jpg);
+    background: url(Images/beranda.jpg);
     background-size: cover;
     padding: 200px 60px 60px 60px;
 }
@@ -246,7 +246,7 @@ section {
 }*/
 
 .makanan {
-    background: url(images/bg.jpg);
+    background: url(Images/bg.jpg);
     background-size: cover;
     padding-top: 70px;
 }
@@ -264,7 +264,7 @@ section {
 }
 
 .kontak {
-    background: url(images/bg3.jpg);
+    background: url(Images/bg3.jpg);
     background-size: cover;
     min-height: 100vh;
     padding-top: 70px;
@@ -456,7 +456,7 @@ footer {
         right: 20px;
         width: 40px;
         height: 40px;
-        background: url(images/menu-toggle.png);
+        background: url(Images/menu-toggle.png);
         background-size: 50px;
         background-repeat: no-repeat;
         background-position: center;
@@ -465,7 +465,7 @@ footer {
     }
 
     .menuToggle.active {
-        background: url(images/close.png);
+        background: url(Images/close.png);
         background-size: 40px;
         background-repeat: no-repeat;
         background-position: center;
