@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Submission</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body translate="no">
+        <header class="pembatas">
+            <h1 class="logo"><span style="color: white;">#</span> Resepku</h1>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <nav class="navbar">
+                <ul class="navigate">
+                    <li><a href="#beranda" class="black" onclick="toggleMenu();">Beranda</a></li>
+                    <li><a href="#spesial" class="black" onclick="toggleMenu();">Spesial</a></li>
+                    <li><a href="#makanan" class="black" onclick="toggleMenu();">Makanan</a></li>
+                    <li><a href="#minuman" class="black" onclick="toggleMenu();">Minuman</a></li>
+                    <li class="contact"><a href="#kontak" onclick="toggleMenu();" style="text-decoration: none; color: black;">Kontak</a></li>
+                </ul>
+
+                <!-- <div class="menu-toggle" onclick="goToggle()">
+                    <span id="first"></span>
+                    <span id="second"></span>
+                    <span id="last"></span>
+                </div> -->
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+
+                <section id="beranda" class="beranda">
+                    <div class="square">
+                        <h1>Pengen belajar masak tapi bingung cari resepnya?</h1>
+                        <p>Yuk, explore resep-resep mulai dengan bahan minimalis dan step yang mudah sampai kamu jadi PRO dalam dunia memasak.</p>
+                        <a href="#" class="button">Explore Now !</a>
+                    </div>
+                </section>
+
+                <section id="spesial" class="spesial">
+                    <div class="container">
+                        <h1 class="titletext">Resep <span class="title">Spesial</span> Hari ini</h1>
+                        <div class="row1">
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/spaghetti.jpg">
+                                    <p class="level" style="background-color: #FF8B8B;">Special: Fantastic Friday</p>
+                                </div>
+                                <article>
+                                    <h2>Spaghetti Bolognese</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">500 gr</span> tomat merah</li>
+                                        <li style="text-align: left;"><span class="takaran">250 gr</span> daging cincang</li>
+                                        <li style="text-align: left;"><span class="takaran">1 butir</span> bawang bombay kecil, potong kotak kecil</li>
+                                        <li style="text-align: left;"><span class="takaran">1 siung</span> bawang putih, cincang halus</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> oregano bubuk</li>
+                                        <li style="text-align: left;"><span class="takaran">8 sdm</span> saus tomat Del Monte</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/pizza.jpg">
+                                    <p class="level" style="background-color: #3AB4F2;">Most Popular</p>
+                                </div>
+                                <article>
+                                    <h2>Pizza Keju Mozarella</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">7 gr</span> ragi kering</li>
+                                        <li style="text-align: left;"><span class="takaran">237 ml</span> air hangat</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> gula</li>
+                                        <li style="text-align: left;"><span class="takaran">360 gr</span> tepung terigu protein tinggi</li>
+                                        <li style="text-align: left;"><span class="takaran">1/2 sdt</span> garam</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdm</span> minyak zaitun</li>
+                                        <li style="text-align: left;"><span class="takaran">112 gr</span> tomato puree</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/macaron.jpg">
+                                    <p class="level" style="background-color: #18978F;">The Latest</p>
+                                </div>
+                                <article>
+                                    <h2>Macaron</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">250 gr</span> tepung almond</li>
+                                        <li style="text-align: left;"><span class="takaran">300 gr</span> gula halus</li>
+                                        <li style="text-align: left;"><span class="takaran">5 butir</span> putih telur</li>
+                                        <li style="text-align: left;"><span class="takaran">200 gr</span> gula kastor</li>
+                                        <li style="text-align: left;"><span class="takaran"></span> pasta pewarna makanan sesuai selera</li>
+                                        <li style="text-align: left;"><span class="takaran"></span> butter cream instan secukupnya untuk bahan isian</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                            
+                        </div>
+                        <div class="lengkap"><a href="#">Selengkapnya</a></div>
+                    </div>
+                </section>
+                
+                <section id="makanan" class="makanan">
+                    <div class="container-makanan">
+                        <h1 class="titletext" >Resep <span class="title">Makanan</span></h1>
+                        <div class="row1">
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/pancake.jpg">
+                                    <p class="level">Easy</p>
+                                </div>
+                                <article>
+                                    <h2>Pancake Pisang</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">200 gr</span> tepung terigu serbaguna</li>
+                                        <li style="text-align: left;"><span class="takaran">2 buah</span> pisang ambon yang matang sekali (haluskan dengan garpu)</li>
+                                        <li style="text-align: left;"><span class="takaran">200 ml</span> susu cair</li>
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> butter atau margarin leleh (bisa pakai minyak sayur)</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/ayam.jpg">
+                                    <p class="level" style="background-color: #b6b6b6;">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Ayam Goreng Tepung</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">1 ekor</span> ayam, potong 12 bagian</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdm</span> bubuk bawang putih</li>
+                                        <li style="text-align: left;"><span class="takaran">2 sdt</span> lada bubuk</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> garam halus</li>
+                                        <li style="text-align: left;"><span class="takaran">250 gr</span> tepung terigu protein tinggi</li>
+                                        <li style="text-align: left;"><span class="takaran">70 gr</span> tepung maizena</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/sushi.jpg">
+                                    <p class="level" style="background-color: #b6b6b6;">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Sushi roll</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">200 gr</span> beras jepang</li>
+                                        <li style="text-align: left;"><span class="takaran">270 liter</span> air</li>
+                                        <li style="text-align: left;"><span class="takaran">1/2 sdt</span> garam</li>
+                                        <li style="text-align: left;"><span class="takaran">1/2 sdm</span> gula</li>
+                                        <li style="text-align: left;"><span class="takaran"></span> nori (rumput laut kering) berbentuk lembaran</li>
+                                        <li style="text-align: left;"><span class="takaran">4 butir</span> telur</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                        </div>    
+                            
+                        <div class="row1">
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/lasagna.jpg">
+                                    <p class="level" style="background-color: #e5b80b;">Advance</p>
+                                </div>
+                                <article>
+                                    <h2>Lasagna</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">12 lembar</span> kulit lasagna siap pakai</li>
+                                        <li style="text-align: left;"><span class="takaran">150 gr</span> daging sapi cincang</li>
+                                        <li style="text-align: left;"><span class="takaran">50 gr</span> jamur merang, cincang kasar</li>
+                                        <li style="text-align: left;"><span class="takaran">1 siung</span> bawang putih, cincang halus</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/burger.jpg">
+                                    <p class="level" >Easy</p>
+                                </div>
+                                <article>
+                                    <h2>Burger Daging Sapi</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> minyak goreng</li>
+                                        <li style="text-align: left;"><span class="takaran">1 siung</span> bawang bombay (cincang halus)</li>
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> mentega</li>
+                                        <li style="text-align: left;"><span class="takaran">200 gr</span> daging cincang</li>
+                                        <li style="text-align: left;"><span class="takaran">1 buah</span> roti burger (belah menjadi 2 bagian)</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/crab.jpg">
+                                    <p class="level" style="background-color: #e5b80b">Advance</p>
+                                </div>
+                                <article>
+                                    <h2>Kepiting Saus Padang</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">2 ekor</span> kepiting segar ukuran besar</li>
+                                        <li style="text-align: left;"><span class="takaran">5 sdm</span> kecap manis</li>
+                                        <li style="text-align: left;"><span class="takaran">4 sdm</span> saus tiram</li>
+                                        <li style="text-align: left;"><span class="takaran">2 lembar</span> daun jeruk</li>
+                                        <li style="text-align: left;"><span class="takaran">1 butir</span> telur, kocok lepas</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> gula pasir</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                        </div>
+
+                        <div class="lengkap"><a href="#">Selengkapnya</a></div>
+                    </div>
+                </section>
+
+                <section id="minuman" class="minuman">
+                    <div class="container-makanan">
+                        <h1 class="titletext" >Resep <span class="title">Minuman</span></h1>
+                        <div class="row1">
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/orange.jpg">
+                                    <p class="level">Easy</p>
+                                </div>
+                                <article>
+                                    <h2>Orange Mandarin Squash</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">500 ml</span> air soda</li>
+                                        <li style="text-align: left;"><span class="takaran">120 ml</span> buavita orange mandarin</li>
+                                        <li style="text-align: left;"><span class="takaran">3 gr</span> knorr bumbu rasa jeruk nipis</li>
+                                        <li style="text-align: left;"><span class="takaran">20 ml</span> sirup markisa</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdm</span> lipton serbuk teh instan rasa lemon</li>
+
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/milkshake.jpg">
+                                    <p class="level" style="background-color: #b6b6b6;">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Strawberry Milkshake</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">100 ml</span> susu cair rasa strawberry</li>
+                                        <li style="text-align: left;"><span class="takaran">5 buah</span> strawberry</li>
+                                        <li style="text-align: left;"><span class="takaran">5 scoop</span> es krim strawberry</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>es batu secukupnya</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>susu kental manis coklat</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>biskuit oreo secukupnya</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/ice coffee.jpg">
+                                    <p class="level" style="background-color: #b6b6b6;">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Es kopi susu aren</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> gula aren yang sudah dihaluskan</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdm</span> gula pasir</li>
+                                        <li style="text-align: left;"><span class="takaran">100 ml</span> air</li>
+                                        <li style="text-align: left;"><span class="takaran">150 ml</span> susu cair</li>
+                                        <li style="text-align: left;"><span class="takaran"></span> espresso atau double espresso</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            
+                        </div>    
+                        
+                        <div class="row1">
+                        
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/matcha.jpg">
+                                    <p class="level" style="background-color: #b6b6b6;">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Matcha Frappe</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">1 sdm</span> matcha</li>
+                                        <li style="text-align: left;"><span class="takaran">150 ml</span> air panas</li>
+                                        <li style="text-align: left;"><span class="takaran">200 ml</span> whipping cream</li>
+                                        <li style="text-align: left;"><span class="takaran">1 mangkuk</span> es batu</li>
+                                        <li style="text-align: left;"><span class="takaran">200 ml</span> susu cair</li>
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> krimer bubuk</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/lemon.jpg">
+                                    <p class="level" >Easy</p>
+                                </div>
+                                <article>
+                                    <h2>Honey Lemon Juice</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">3 buah</span> lemon lokal ukuran besar</li>
+                                        <li style="text-align: left;"><span class="takaran">2 sdm</span> gula pasir</li>
+                                        <li style="text-align: left;"><span class="takaran">300 ml</span> air</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>madu secukupnya</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>es batu secukupnya (untuk diblender)</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img class="image" src="images/mocca.jpg">
+                                    <p class="level" style="background-color: #b6b6b6">Intermediate</p>
+                                </div>
+                                <article>
+                                    <h2>Mocca Float</h2>
+                                    <p style="text-align: left; margin-left: 20px;">Bahan :</p>
+                                    <ul style="margin-left: 20px; margin-bottom: 30px;"> 
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> kopi hitam instan tanpa ampas</li>
+                                        <li style="text-align: left;"><span class="takaran">1 sdt</span> gula pasir</li>
+                                        <li style="text-align: left;"><span class="takaran">100 ml</span> air panas</li>
+                                        <li style="text-align: left;"><span class="takaran">200 ml</span> susu coklat ovaltine</li>
+                                        <li style="text-align: left;"><span class="takaran"></span>es krim vanilla secukupnya</li>
+                                    </ul>
+                                    <a href="#" class="read">Lihat Resep</a>
+                                </article>
+                            </div>
+
+                        </div>
+
+                        <div class="lengkap"><a href="#">Selengkapnya</a></div>
+                    </div>
+                </section>
+
+                <section id="kontak" class="kontak">
+                    <div class="container-kontak">
+                        <h1 class="titletext" style="color: white;">Hubungi <span class="title">Kami</span></h1>
+                        <div class="wrapper">
+                            <div class="form">
+                                <form>
+                                <h1>Kirim Pesan</h1>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Nama" name="nama" required />
+                                </div>
+                                <div class="inputbox">
+                                    <input type="email" placeholder="Email" required/>
+                                </div>
+                                <div class="inputbox">
+                                    <textarea placeholder="Pesan" cols="26" rows="5" required></textarea>
+                                </div>
+                                <div class="inputbox">
+                                    <button class="send" type="submit">Send</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+            </div>
+            <aside>
+                <article class="profile">
+                    <h1>Profil</h1>
+                    <div class="profile-img">
+                        <img src="">
+                    </div>
+                    <div class="profile-text">
+                            <p class="biodata"><span class="bio">Nama</span> <span class="value"></span></p>
+                            <p class="biodata"><span class="bio">Email</span> <span class="value"></span></p>
+                            <p class="biodata"><span class="bio">Domisili</span> <span class="value"></span></p>
+                    </div>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>Copyright 2022 <a href="#"># Resepku</a>. All Right Reserved</p>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
